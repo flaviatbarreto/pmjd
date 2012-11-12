@@ -228,7 +228,7 @@ ul#sliding-navigation li.sliding-element-adm a {
 }
 
 #titulo_news{
-   width: 740px;
+   width: 560px;
    height: 25px;
    float: left;
    background: #DDE9AF;
@@ -277,7 +277,7 @@ ul#sliding-navigation li.sliding-element-adm a {
 
 #acontece{
    width: 630px;
-   height: 380px;
+   height: 350px;
    float: right;
    margin-top: 15px;
 }
@@ -288,6 +288,67 @@ ul#sliding-navigation li.sliding-element-adm a {
    margin-top: 10px;
    margin-left: 10px;
    float: left;
+}
+
+#acontece_botoes{
+   width: 170px;
+   height: 315px;
+   float: right;
+   margin-top: 10px;
+}
+
+#acontece_quadrado1{
+   width: 35px;
+   height: 34px;
+   float: left;   
+   background-color: #e7f8a3;
+   margin-left: -5px;
+}
+
+#acontece_quadrado2{
+   width: 35px;
+   height: 34px;
+   float: right;   
+   background-color: #e7f8a3;
+   margin-top:5px;
+   
+}
+
+#acontece_botao_radio{
+   width: 133px;
+   height: 34px;
+   background-image: url('../css/images/botao_radio.png');
+   float: right;
+   margin-top: 5px;
+}
+
+#acontece_botao_radio:hover{
+	background-image: url('../css/images/botao_radio_hover.png');
+}
+
+#acontece_botao_foto{
+   width: 176px;
+   height: 45px;
+   background: url('../css/images/botao_foto.png');
+   background-repeat: no-repeat;
+   float: right;
+   margin-top: 5px;
+}
+
+#acontece_botao_foto:hover{
+	background: url('../css/images/botao_foto_hover.png');
+}
+
+#acontece_botao_video{
+   width: 133px;
+   height: 34px;
+   background: url('../css/images/botao_video.png');
+   float: right;
+}
+
+#acontece_botao_video:hover{
+   background: url('../css/images/botao_video_hover.png');
+   float: right;
 }
 
 #obras{
@@ -978,6 +1039,14 @@ ul#sliding-navigation li.sliding-element-adm a {
    margin-right:35px;
 }
 
+#midias_sociais{
+   width: 176px;
+   height: 45px;
+   background: url('../css/images/midias_sociais.png');
+   background-repeat: no-repeat;
+   float: right;
+   margin-top: 15px;
+}
 
 #transparencia{
    width: 560px;
@@ -1109,68 +1178,4 @@ ul#sliding-navigation li.sliding-element-adm a {
    height:34px;
    margin-top:20px;
    margin-left: 20px;
-}
-
-#sublinha_acontece{
-   width: 620px;
-   height: 1px;
-   background: #505050;
-   background-repeat: no-repeat;
-   float: left;	
-   margin-left:10px;
-   margin-top: 5px;
-}
-
-#imagens_acontece{
-	width: 190px;
-	height: 315px;
-	float: right;
-}
-
-#acontece_sub{
-	width: 630px;
-	height: 325px;
-	float: left;
-}
-
-#midias_sociais{
-   width: 311px;
-   height: 34px;
-   background: url('../css/images/midias_sociais.png');
-   background-repeat: no-repeat;
-   float: left;
-   margin-top: 5px;
-   margin-left: 10px;
-}
-
-#acontece_videos{
-	background: url('../css/images/acontece_videos.png');
-	width: 80px;
-	height: 19px;
-	float: left;
-	margin-left: 22px;
-	margin-top: 12px;
-}
-#acontece_audios{
-	background: url('../css/images/acontece_audios.png');
-	width: 69px;
-	height: 19px;
-	float: left;
-	margin-left: 22px;
-	margin-top: 12px;
-}
-
-#acontece_fotos{
-	background: url('../css/images/acontece_fotos.png');
-	width: 59px;
-	height: 21px;
-	float: left;
-	margin-left: 22px;
-	margin-top: 12px;
-}
-
-/* Slide shows Corpo*/
-
-#jslidernews2{
-   margin-top: 35px;
 }

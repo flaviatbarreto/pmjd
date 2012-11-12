@@ -9,11 +9,6 @@
 	<title>PMJD</title>
 	
 	<link rel="stylesheet" href="<?php echo URL;?>css/index.css" />
-	<link rel="stylesheet" href="<?php echo URL;?>css/jquery.popeye.css" />
-	<link rel="stylesheet" href="<?php echo URL;?>css/jquery.popeye.style.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/layout.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/style2.css" />
-	
 	<?php
 		if(isset($this->css)){
 			foreach($this->css as $css){
@@ -24,12 +19,6 @@
 	
 	<script type="text/javascript" src="<?php echo URL;?>scripts/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="<?php echo URL;?>scripts/easySlider1.7.js"></script>
-	<script type="text/javascript" src="<?php echo URL;?>scripts/jquery.popeye-2.1.js"></script>
-	<script type="text/javascript" src="<?php echo URL;?>scripts/jquery.popeye-2.1.min.js"></script>
-	<script language="javascript" type="text/javascript" src="<?php echo URL;?>/scripts/jquery.js"></script>
-	<script language="javascript" type="text/javascript" src="<?php echo URL;?>/scripts/jquery.easing.js"></script>
-	<script language="javascript" type="text/javascript" src="<?php echo URL;?>/scripts/script.js"></script>
-	
 	<?php
 		if(isset($this->js)){
 			foreach($this->js as $js){
@@ -37,48 +26,20 @@
 			}
 		}
 	?>
-
-	<script type="text/javascript">
-		$(document).ready( function(){	
-			var buttons = { previous:$('#jslidernews2 .button-previous') ,
-						next:$('#jslidernews2 .button-next') };			 
-			$('#jslidernews2').lofJSidernews( { interval:5000,
-											 	easing:'easeInOutQuad',
-												duration:1200,
-												auto:true,
-												mainWidth:684,
-												mainHeight:300,
-												navigatorHeight		: 100,
-												navigatorWidth		: 310,
-												maxItemDisplay:3,
-												buttons:buttons } );						
-	});
+	<script>
+      $(document).ready(function(){	
+         $("#slider").easySlider({
+            controlsShow: false,
+            firstShow: false,
+            lastShow: false,
+            speed: 2000,
+            auto:	true,
+            pause: 7000,
+            continuous: true, 
+            numeric: false
+         });
+      });
 	</script>
-	
-	<!-- [example js] begin -->
-<script type="text/javascript">
-    <!--//<![CDATA[
-    
-    $(document).ready(function () {
-        var options1 = {
-        }
-        var options2 = {
-            caption:    false,
-            navigation: 'permanent',
-            direction:  'left'
-        }
-        var options3 = {
-            caption:    'permanent',
-            opacity:    1
-        }
-    
-        $('#ppy1').popeye(options1);
-        $('#ppy2').popeye(options2);
-        $('#ppy3').popeye(options3);
-    });
-    
-    //]]>-->
-</script>
 </head>
 
 <body>
@@ -90,6 +51,8 @@
    <div id="slider">
       <ul>				
          <li><img src="<?php echo URL;?>css/images/banner1.jpg" width="740" height="160"/></li>
+         <li><img src="<?php echo URL;?>css/images/banner2.jpg" width="740" height="160"/></li>
+         <li><img src="<?php echo URL;?>css/images/banner3.jpg" width="740" height="160"/></li>
       </ul>
    </div>
 	<div id="frase">
