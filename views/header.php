@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="<?php echo URL;?>css/jquery.popeye.css" />
 	<link rel="stylesheet" href="<?php echo URL;?>css/jquery.popeye.style.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/style1.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/style2.css" />
 	
 	<?php
@@ -38,23 +39,44 @@
 		}
 	?>
 
+	<!-- Obras -->
+	<script type="text/javascript">
+	 $(document).ready( function(){	
+			// buttons for next and previous item						 
+			var buttons = { previous:$('#jslidernews1.button-previous') ,
+							next:$('#jslidernews1.button-next') };			
+			$('#jslidernews1').lofJSidernews( { interval : 4000,
+												direction		: 'opacitys',	
+												easing			: 'easeInOutExpo',
+												duration		: 1200,
+												auto		 	: true,
+												maxItemDisplay  : 4,
+												navPosition     : 'horizontal', // horizontal
+												navigatorHeight : 32,
+												navigatorWidth  : 80,
+												mainWidth		: 740,
+												buttons			: buttons } );	
+	 });
+	</script>
+	
+	<!-- Noticias -->
 	<script type="text/javascript">
 		$(document).ready( function(){	
-			var buttons = { previous:$('#jslidernews2 .button-previous') ,
-						next:$('#jslidernews2 .button-next') };			 
+			var buttons = { previous:$('#jslidernews2.button-previous') ,
+						next:$('#jslidernews2.button-next') };			 
 			$('#jslidernews2').lofJSidernews( { interval:5000,
 											 	easing:'easeInOutQuad',
 												duration:1200,
 												auto:true,
-												mainWidth:684,
+												mainWidth:740,
 												mainHeight:300,
 												navigatorHeight		: 100,
 												navigatorWidth		: 310,
 												maxItemDisplay:3,
 												buttons:buttons } );						
-	});
+		});
 	</script>
-	
+
 	<!-- [example js] begin -->
 <script type="text/javascript">
     <!--//<![CDATA[

@@ -133,7 +133,7 @@ ul#sliding-navigation li.sliding-element-adm a {
 
 #content{
    width: 760px;
-   min-height: 600px;
+   min-height: 1400px;
    float: right;
    overflow-x:hidden;
    overflow-y:hidden; 
@@ -307,7 +307,7 @@ ul#sliding-navigation li.sliding-element-adm a {
    width: 720px;
    height: 150px;
    float: left;
-   margin-top: 10px;
+   margin-top: 40px;
 }
 
 .quadrado_img{
@@ -1173,4 +1173,9 @@ ul#sliding-navigation li.sliding-element-adm a {
 
 #jslidernews2{
    margin-top: 35px;
+}
+
+#jslidernews1{
+   width: 740px;
+   height: 340px;
 }
