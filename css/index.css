@@ -1,0 +1,1221 @@
+*, body, html{
+   margin:0 auto;
+   padding:0;
+   font-family: Arial,sans-serif;
+}
+
+html, body{
+   background: #F6FEE6;
+   height: 100%;
+}
+
+a{
+   color: #999;
+   text-decoration: none;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+#all{
+   width: 960px;
+   min-height: 700px;
+   margin-top: 15px;   
+}
+
+#header_background{
+   min-width: 940px;
+   height: 200px;
+   /*background: #CDDE87; */
+}
+
+#header{
+   width: 940px;
+   height: 480px;
+}
+
+#logo_prefeitura{
+   width: 122px;
+   height: 119px;
+   background-image: url('images/pmjd.png');
+   float: left;
+   margin-top: 6px;
+   margin-left: 1px;
+}
+
+#barra_header{
+	width: 835px;
+	height: 42.5px;
+	background: #fffd4e;
+	float: right;
+	margin-top:-74px;
+}
+
+#foto_header{
+	width: 940px;
+	height: 330px;
+	background-image: url('images/foto_header.jpg');
+	float:left;
+	margin-top:5px;
+
+}
+
+#busca{
+   width: 185px;
+   height: 45px;
+   float: right;   
+   margin-top:-67px;
+   margin-right:10px;
+}
+
+#busca_texto{
+   width: 160px;
+   height: 22px;
+   float: left;
+   border-width: 0px;
+}
+
+#busca_ok{
+	width: 23px;
+	height: 22px;
+	float:right;
+	background-image: url('images/busca_header.png');
+}
+
+#busca p{
+   float:right;
+   margin-right: 5px;
+   font-size: 14px;
+   margin-top: 2px;
+   color: #ececec;
+   
+}
+
+#barra_inferior_header{
+	width: 940px;
+	height: 5px;
+	float:right;
+	background: #fffd4e;
+	margin-top:10px;	
+}
+#barra_home{
+	width: 740px;
+	height: 40px;
+	float: left;
+}
+#barra_menor{
+	width: 20px;
+	height: 40px;
+	background: #505050;
+	float: left;
+}
+
+#barra_maior{
+	width: 720px;
+	height: 40px;
+	background: #e2ead1;
+	float: left;	
+}
+
+#barra_home p{
+	margin-top: 3px;
+   margin-left: 10px;
+   color: #505050;
+	font-weight: bold;   
+}
+
+
+#frase{
+   width: 740px;
+   height: 25px;
+   background: #DDE9AF;
+   float: right;
+   margin-top: 5px;
+}
+
+#frase p{
+   color: #677821;
+   font-weight: bold;
+   float: right;
+   margin-top: 2px;
+   margin-right: 10px;
+}
+
+
+
+/* inicio do menu*/
+#menu {
+   width: 193px;
+   height: 600px;
+   float: left;
+}
+
+ul#sliding-navigation {
+   list-style: none;  
+   font-size: .75em;  
+   margin: 30px 0;  
+}
+
+ul#sliding-navigation li.sliding-element h3,  
+ul#sliding-navigation li.sliding-element a  
+{  
+   display: block;  
+   width: 150px;  
+   padding: 5px 15px;  
+   margin: 0;  
+   margin-bottom: 5px;  
+}  
+
+ul#sliding-navigation li.sliding-element h3  {
+   color: #fff;
+   background: #CDDE87;
+   border: 1px solid #DDE9AF;  
+   font-weight: bold;
+}  
+
+ul#sliding-navigation li.sliding-element a {  
+   color: #999; 
+   background: #DDE9AF;  
+   border: 1px solid #DDE9AF;  
+   text-decoration: none;  
+   font-weight: bold;
+}  
+
+ul#sliding-navigation li.sliding-element a:hover { 
+   color: #999;
+   background: #CDDE87;
+}
+
+ul#sliding-navigation li.sliding-element-adm a {  
+   color: #999;
+   background: #EFF7DE;
+   border: 0px;
+   text-decoration: none;  
+   font-weight: bold;
+}
+
+#sliding-navigation-admin{
+   background: #CCC;
+}
+/* Fim do menu*/
+
+#content{
+   width: 760px;
+   min-height: 600px;
+   float: right;
+   overflow-x:hidden;
+   overflow-y:hidden; 
+}
+
+#plugins{
+   width: 185px;
+   height: 350px;
+   float: right;
+   margin-right: 0px;
+}
+
+#wrap {
+   min-height: 100%;
+}
+
+#main {
+   overflow:auto;
+   padding-bottom: 150px;
+}
+
+#footer {
+   position: relative;
+   margin-top: -130px; /* negative value of footer height */
+   height: 180px;
+   clear:both;
+   background: #DDE9AF;
+}
+
+#footer p{
+   color: #999;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+#footer_prefeitura{
+   width: 435px;
+   height: 100px;
+   float: left;
+   margin-left: 50px;
+   margin-top: 30px;
+}
+
+#nome_prefeitura{
+   width: 268px;
+   height: 30px;
+   float: right;
+   margin-top: 30px;
+}
+
+#logo_governo{
+   width: 145px;
+   height: 98px;
+   background-image: url('images/footer_prefeitura.png');
+   float: left;
+}
+
+#links{
+   width: 140px;
+   height: 100px;
+   float: right;
+   margin-right: 100px;
+   margin-top: 30px;
+}
+
+#titulo_obras{
+   width: 600px;
+   height: 25px;
+   float: left;
+   background: #DDE9AF;
+   color: #677821;
+   font-weight: bold;
+}
+
+#titulo_obras p{
+   margin-top: 3px;
+   margin-left: 10px;
+}
+
+#titulo_acontece{
+   width: 630px;
+   height: 25px;
+   float: right;
+   background: #E5FF80;
+   color: #ACD052;
+   font-weight: bold;
+}
+
+#titulo_acontece p{
+   margin-top: 3px;
+   margin-left: 10px;
+}
+
+#titulo_news{
+   width: 740px;
+   height: 25px;
+   float: left;
+   background: #DDE9AF;
+   color: #677821;
+   font-weight: bold;   
+}
+
+#titulo_news p{
+   margin-top: 3px;
+   margin-left: 10px;
+}
+
+#news{
+   width: 560px;
+   height: 350px;
+   float: left;
+}
+
+#news_list{
+   width: 145px;
+   height: 300px;
+   float: left;
+   margin-top: 10px;
+   margin-left: 5px;
+}
+
+#news_list h3{
+   color: #E5FF80;
+   font-size: 20px;
+   margin-left: 7px;
+}
+
+.news_date{
+   font-size: 14px;
+   color: #CCC;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+.news_title{
+   color: #999;
+   margin-bottom: 10px;
+   margin-left: 10px;
+   font-weight: bold;
+}
+
+#acontece{
+   width: 630px;
+   height: 380px;
+   float: right;
+   margin-top: 15px;
+}
+
+#acontece_video{
+   width: 430px;
+   height: 315px;
+   margin-top: 10px;
+   margin-left: 10px;
+   float: left;
+}
+
+#obras{
+   width: 600px;
+   height: 330px;
+   float: left;
+   margin-top: 35px;
+   margin-left:60px;
+}
+
+#obras img{
+   margin-top: 5px;
+   margin-left: 3px;
+}
+
+#quadrados{
+   width: 720px;
+   height: 150px;
+   float: left;
+   margin-top: 10px;
+}
+
+.quadrado_img{
+   float:left;
+   margin-top: 15px;   
+}
+
+#quadrado_newsletter.quadrado_img{
+   float:left;
+   margin-left:5px;
+}
+
+#quadrado_ouvidoria.quadrado_img{
+   float:left;
+   margin-left:37px;
+}
+
+#quadrado_producao.quadrado_img{
+   float:right;
+   margin-right:5px;
+}
+
+#newsletter{
+   width: 203px;
+   height: 100px;
+   margin-top: 30px;
+   margin-right: 30px;
+   float: right;
+}
+
+#newsletter form{
+   margin-left: 20px;
+   
+}
+/*CSS DE "CIDADE" */
+
+#titulo_cidade{
+   width: 560px;
+   height: 25px;
+   float: left;
+   background: #DDE9AF;
+   color: #677821;
+   font-weight: bold;
+}
+
+#titulo_cidade p{
+   margin-top: 3px;
+   margin-left: 10px;
+}
+
+#cidade{
+   width: 740px;
+   height: 1200px;
+   float: left;
+   margin-top: 30px;
+}
+
+#cidade_intro{
+   width: 740px;
+   height: 170px;
+   float: left;
+}
+
+#cidade_foto{
+   background-image: url('../css/images/cidade_foto.png');
+   width: 220px;
+   height: 150px;
+   float: left;
+}
+
+#cidade_texto{
+   width: 510px;
+   height: 150px;
+   color: #363636;
+   font-size: 12px;
+   font-weight: regular;
+   float: left;
+   margin-top: 2px;
+   margin-left: 10px;
+}
+
+#cidade_conheca_mais{
+   width: 300px;
+   height: 20px;
+   color: #677821;
+   font-size: 13px;
+
+   float: left;
+   margin-top: 10px;
+   margin-left: 25px;
+}
+
+#cidade_sublinha{
+   width: 300px;
+   height: 2px;
+   float: left;	
+   color: #0;
+
+}
+
+#cidade_submenu{
+   width: 450px;
+   height: 80px;
+   float: left;	
+   background: #eef9e2;
+   margin-top: 10px;
+   margin-left: 145px;
+}
+
+#cidade_submenu_historia{
+   width: 100px;
+   height: 60px;
+   float: left;
+   background: #cdeb85;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+#cidade_submenu_historia p{
+   font-size: 17px;
+   font-weight: bold;
+   color: #9c9c9c;
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+#cidade_submenu_historia:hover{
+   background: #9c9c9c;
+}
+
+#cidade_submenu_historia:hover p{
+   color: #cdeb85;
+}
+
+#cidade_submenu_menor{
+   width: 100px;
+   height: 25px;
+   float: left;
+   background: #cdeb85;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+#cidade_submenu_menor p{
+   font-size: 15px;
+   font-weight: bold;
+   color: #9c9c9c;
+   margin-top: 5px;
+   margin-left: 7px;
+}
+
+#cidade_submenu_menor:hover{
+   background: #9c9c9c;
+}
+
+#cidade_submenu_menor:hover p{
+   color: #cdeb85;
+}
+
+#cidade_submenu_simbolos{
+   width: 100px;
+   height: 60px;
+   float: right;
+   background: #cdeb85;
+   margin-top: 10px;
+   margin-right: 10px;
+}
+
+#cidade_submenu_simbolos p{
+   font-size: 15px;
+   font-weight: bold;
+   color: #9c9c9c;
+   margin-top: 2px;
+   margin-left: 2px;
+}
+
+#cidade_submenu_simbolos:hover{
+   background: #9c9c9c;
+}
+
+#cidade_submenu_simbolos:hover p{
+   color: #cdeb85;
+}
+
+#cidade_subtitulo{
+   width: 740px;
+   height: 300px;
+   float:left;
+   margin-top: 30px;
+}
+
+#subtitulo{
+   float:left;
+   width: 740px;
+   height: 20px;
+}
+
+#subtitulo p{
+   font-size: 20px;
+   font-weight: regular;
+   color: #9c9c9c;
+   margin-top: 20px;
+   margin-left: 2px;
+}
+
+
+/*CSS DE "ADMINISTRACAO/GABINETE" */
+
+#titulo_admin{
+   width: 560px;
+   height: 25px;
+   float: left;
+   background: #DDE9AF;
+   color: #677821;
+   font-weight: bold;
+}
+
+#titulo_admin p{
+   margin-top: 3px;
+   margin-left: 10px;
+}
+
+#sublinha{
+   width: 500px;
+   height: 5px;
+   background-image: url('../css/images/sublinha.png');
+   background-repeat: no-repeat;
+   float: left;	
+}
+
+#prefeito{
+   width: 740px;
+   height: 300px;
+   float: left;
+   margin-top: 40px;
+}
+
+#prefeito_sub{
+   width: 560px;
+   height: 25px;
+   float: left;
+   background: #DDE9AF;
+   color: #677821;
+   font-weight: bold;
+}
+
+#prefeito_sub p{
+   margin-top: 3px;
+   margin-left: 10px;
+}
+
+
+#prefeito_texto{
+   width: 560px;
+   height: 200px;
+}
+
+#prefeito_texto p{
+   font-size: 13px;
+   font-weight: regular;
+   color: #9c9c9c;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+#foto{
+   width: 150px;
+   height: 200px;
+   float: right;
+   background: #DDE9AF;
+   color: #677821;
+   margin-right: 20px;
+}
+
+#sublinha_centro{
+   width: 500px;
+   height: 5px;
+   background-image: url('../css/images/sublinha.png');
+   background-repeat: no-repeat;
+   float: left;		
+   margin-top: 20px;
+   margin-left: 70px;
+
+}
+
+/*CSS DE "ADMINISTRACAO/EQUIPE" */
+
+#equipe{
+   width: 500px;
+   height: 200px;
+   float: left;
+   margin-top: 20px;
+   margin-left: 100px;
+}
+
+#equipe_sub{
+   width: 350px;
+   height: 25px;
+   float: left;
+   background: #DDE9AF;
+   color: #677821;
+   font-weight: bold;
+
+}
+
+#equipe_sub p{
+   font-size: 13px;
+   margin-top: 5px;
+   margin-left: 10px;
+}
+
+#equipe_foto{
+   width: 120px;
+   height: 150px;
+   float: right;
+   background: #DDE9AF;
+   color: #677821;
+   margin-right: 20px;
+}
+
+#equipe_texto{
+   width: 350px;
+   height: 175px;
+}
+
+#equipe_texto p{
+   font-size: 14px;
+   font-weight: regular;
+   color: #363636;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+/*CSS DE "NOTICIAS" */
+
+#noticia_principal{
+   width: 740px;
+   height: 220px;
+   float: left;
+   margin-top: 5px;
+}
+
+#foto_principal{
+   width: 275px;
+   height: 205px;
+   background-image: url('../css/images/foto_principal.png');
+   float: left;
+   margin-top: 10px;
+}
+
+#texto_principal{
+   width: 450px;
+   height: 200px;
+   float: left;
+}
+
+#texto_principal p{
+   font-size: 12px;
+   margin-top: 25px;
+   margin-left: 10px;
+}
+
+#texto_principal_titulo{
+   width: 300px;
+   height: 20px;
+   float:left;
+   margin-top: 10px;
+   margin-left: 10px;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+#texto_principal_sub{
+   width: 450px;
+   height: 200px;
+   float:left;
+   margin-top: 10px;
+   margin-left: 10px;
+   font-size: 12px;
+
+}
+
+#texto_principal_data{
+   width: 100px;
+   height: 10px;
+}
+
+#texto_principal_data p{
+   font-size: 12px;
+   margin-left: 200px;
+}
+
+#continue_lendo{
+   width: 450px;
+   height: 10px;
+   font-size: 15px;
+   font-weight: bold;
+   margin-top: 5px;
+   margin-left: 200px;
+}
+
+#sublinha_noticia{
+   width: 200px;
+   height: 5px;
+   background-image: url('../css/images/sublinha.png');
+   background-repeat: no-repeat;
+   float: left;
+   margin-left: 10px;	
+}
+
+#noticia_secundaria{
+   width: 200px;
+   height: 300px;
+   float: left;
+   margin-top: 5px;
+   margin-left: 20px;
+}
+
+#foto_secundaria{
+   width: 135px;
+   height: 100px;
+   background-image: url('../css/images/foto_secundaria.png');
+   float: left;
+   margin-top: 10px;
+   margin-left: 35px;
+}
+
+#texto_secundario{
+   width: 200px;
+   height: 150px;
+   float: left;
+}
+
+#texto_secundario_titulo{
+   width: 200px;
+   height: 10px;
+   float: left;
+   font-size: 12px;
+   font-weight: bold;
+   margin-top: 5px;
+   margin-left: 45px; 
+}
+
+#texto_secundario_sub{
+   width: 200px;
+   height: 80px;
+   float: left;
+   font-size: 10px;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+#continue_lendo_menor{
+   width: 200px;
+   height: 20px;
+   float: left;
+   font-size: 12px;
+   font-weight: bold;
+   margin-top: 5px;
+   margin-left: 80px;
+}
+
+#linha_noticia{
+   width: 5px;
+   height: 250px;
+   background-image: url('../css/images/linha_noticia.png');
+   background-repeat: no-repeat;
+   float: right;		
+   margin-top: 10px;
+   margin-right: 500px;
+
+}
+
+/*CSS DE LICITAÇÕES  */
+
+#licitacao{
+   width: 740px;
+   height: 220px;
+   float: left;
+   margin-top: 5px;
+}
+
+#licitacao_titulo{
+   width: 300px;
+   height: 20px;
+   float:left;
+   margin-top: 10px;
+   margin-left: 10px;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+#licitacao_descricao{
+   width: 500px;
+   height: 100px;
+   float:left;
+   font-size: 12px;
+   font-weight: bold;	
+   margin-top: 10px;
+   margin-left: 20px;
+
+}
+
+
+#tabela_licitacao{
+   background:#e3e9ca;
+   float: left;
+   font-size:12px;
+   width:600px;
+   height: 30px;
+   margin-left:50px;
+   margin-top:30px;
+   text-align: center;
+}
+
+
+#secretaria{
+   width: 740px;
+   height: 200px;
+   float: left;
+   margin-top: 30px;
+}
+
+#secretaria_sub{
+   width: 260px;
+   height: 25px;
+   float: left;
+   background: #DDE9AF;
+   color: #677821;
+   font-weight: bold;
+   margin-left: 40px;
+}
+
+#secretaria_sub p{
+   margin-top: 3px;
+   margin-left: 10px;
+}
+
+
+#secretaria_texto{
+   width: 560px;
+   height: 100px;
+   margin-top: 40px;
+}
+
+#secretaria_texto p{
+   font-size: 13px;
+   font-weight: regular;
+   color: #9c9c9c;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+#parceria_texto{
+   width: 560px;
+   height: 50px;
+   margin-top: 10px;
+}
+
+#parceria_texto p{
+   font-size: 13px;
+   font-weight: regular;
+   color: #9c9c9c;
+   margin-top: 30px;
+   margin-left: 10px;
+}
+
+#parceria_linha{
+   width: 560px;
+   height: 200px;
+   margin-top: 10px;
+}
+
+#parceria_1{
+   background-image: url('../css/images/selo_unicef.jpg');
+   background-repeat: no-repeat;
+   float:left;
+   width: 150px;
+   height: 150px;
+   margin-left: 10px;
+}
+
+#parceria_2{
+   background-image: url('../css/images/selo_unicef.jpg');
+   background-repeat: no-repeat;
+   float:left;
+   width: 150px;
+   height: 150px;
+   margin-left: 10px;
+}
+
+#parceria_3{
+   background-image: url('../css/images/selo_unicef.jpg');
+   background-repeat: no-repeat;
+   float:left;
+   width: 150px;
+   height: 150px;
+   margin-left: 10px;
+}
+
+#ouvidoria_texto{
+   width: 500px;
+   height: 50px;
+   float:left;
+   margin-top: -90px;
+   margin-left:70px;
+}
+
+#ouvidoria_texto p{
+   font-size: 13px;
+   font-weight: regular;
+   color: #9c9c9c;
+   margin-top: 30px;
+   margin-left: 20px;
+}
+
+#formulario_nome{
+   width: 350px;
+   height: 30px;
+   margin-top: 5px;
+}
+#formulario{
+   width: 560px;
+   height: 350px;
+   margin-top: 50px;
+
+}
+
+#formulario p{
+   font-size: 16px;
+   font-weight: bold;
+   color: #9c9c9c;
+   margin-top: 5px;
+   margin-left: 0px;
+}
+
+#submit{
+   float:left;
+   border: 0px;  
+   background:#1d1d1d;
+   width:100px;
+   height:40px;
+   font-size:15px;
+   color:#eafbc5;
+   margin-top:0px;
+   margin-left:10px;
+}
+
+#submit:hover{
+   background:#5b5b5b;
+}
+
+#formulario_texto{
+   width:350px;
+   height:100px;
+   margin-top:10px;
+}
+
+#select{
+   float:right;
+   border: 0px; 
+   background:#dde9ae;
+   width:100px;
+   height:30px;
+   font-size:15px;
+   color:#9c9c9c;
+   margin-top:5px;
+   margin-right:35px;
+}
+
+
+#transparencia{
+   width: 560px;
+   height: 70px;
+   float:left;
+}
+#transparencia_municipal{
+   width: 560px;
+   height: 50px;
+   background: url('../css/images/transparencia_municipal.png');
+   float: left;
+   margin-top: 5px;
+}
+
+#transparencia_municipal:hover{
+   background: url('../css/images/transparencia_municipal_hover.png');
+}
+
+#newsletter_nome{
+   width: 160px;
+   height: 20px;
+   float: left;
+   border-width: 0px;
+   margin-top:5px;
+   margin-left: 10px;   
+}
+
+#newsletter_email{
+   width: 160px;
+   height: 20px;
+   float: left;
+   border-width: 0px;
+   margin-top:5px;
+   margin-left: 10px;
+}
+
+#ouvidoria_icone{
+   background: url('../css/images/ouvidoria_icone1.png');
+   width: 64px;
+   height: 64px;
+   float: right;
+   margin-top:30px;
+   margin-right: 680px;
+}
+
+#ouvidoria_cidade{
+   background: url('../css/images/ouvidoria_icone2.png');
+   width: 64px;
+   height: 57px;
+   float: right;
+   margin-top:30px;
+   margin-right: 680px;
+}
+
+#ouvidoria_botao_enviar{
+   float:right;
+   border: 0px; 
+   background:#dde9ae;
+   width:100px;
+   height:50px;
+   font-size:15px;
+   color:#9c9c9c;
+   margin-top:-15px;
+   margin-right:100px;
+}
+
+#ouvidoria_botao_enviar p{
+   font-size: 16px;
+   font-weight: bold;
+   color: #9c9c9c;
+   margin-top: 15px;
+   margin-left: 20px;
+}
+
+#fale_conosco{
+   background: url('../css/images/fale_conosco.png');
+   float: right;
+   width:164px;
+   height:179px;
+   margin-top:0px;
+}
+
+#historia_icone{
+   background: url('../css/images/historia_icone.png');
+   float: left;
+   width:137px;
+   height:33px;
+   margin-top:40px;
+   margin-left: 20px;
+}
+
+#economia_icone{
+   background: url('../css/images/economia_icone.png');
+   float: left;
+   width:147px;
+   height:32px;
+   margin-top:20px;
+   margin-left: 20px;
+}
+
+#localizacao_icone{
+   background: url('../css/images/localizacao_icone.png');
+   float: left;
+   width:171px;
+   height:34px;
+   margin-top:20px;
+   margin-left: 20px;
+}
+
+#sublinha_acontece{
+   width: 620px;
+   height: 1px;
+   background: #505050;
+   background-repeat: no-repeat;
+   float: left;	
+   margin-left:10px;
+   margin-top: 5px;
+}
+
+#imagens_acontece{
+	width: 190px;
+	height: 315px;
+	float: right;
+}
+
+#acontece_sub{
+	width: 630px;
+	height: 325px;
+	float: left;
+}
+
+#midias_sociais{
+   width: 311px;
+   height: 34px;
+   background: url('../css/images/midias_sociais.png');
+   background-repeat: no-repeat;
+   float: left;
+   margin-top: 5px;
+   margin-left: 10px;
+}
+
+#acontece_videos{
+	background: url('../css/images/acontece_videos.png');
+	width: 80px;
+	height: 19px;
+	float: left;
+	margin-left: 22px;
+	margin-top: 12px;
+}
+#acontece_audios{
+	background: url('../css/images/acontece_audios.png');
+	width: 69px;
+	height: 19px;
+	float: left;
+	margin-left: 22px;
+	margin-top: 12px;
+}
+
+#acontece_fotos{
+	background: url('../css/images/acontece_fotos.png');
+	width: 59px;
+	height: 21px;
+	float: left;
+	margin-left: 22px;
+	margin-top: 12px;
+}
+
+/* Slide shows Corpo*/
+
+#jslidernews2{
+   margin-top: 35px;
+}
