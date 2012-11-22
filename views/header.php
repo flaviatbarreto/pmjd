@@ -13,7 +13,9 @@
 	<link rel="stylesheet" href="<?php echo URL;?>css/jquery.popeye.style.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/layout.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/style2.css" />
-	
+	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/demo_obra.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/style_obra.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
 	<?php
 		if(isset($this->css)){
 			foreach($this->css as $css){
@@ -37,6 +39,23 @@
 			}
 		}
 	?>
+
+<!-- Inicio Obras -->
+	
+    <script type="text/javascript" src="<?php echo URL?>/scripts/jquery.eislideshow.js"></script>
+    <script type="text/javascript" src="<?php echo URL?>/scripts/jquery.easing.1.3.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('#ei-slider').eislideshow({
+				animation			: 'center',
+				autoplay			: true,
+				slideshow_interval	: 3000,
+				titlesFactor		: 0
+            });
+        });
+    </script>
+
+<!-- Fim Obras -->
 
 	<script type="text/javascript">
 		$(document).ready( function(){	

@@ -157,24 +157,39 @@
      <div id='titulo_obras'>
         <p>A Prefeitura trabalhando - Obras</p>
      </div>
-     <!--<a href=""><img src="<?php echo URL?>/css/images/obra.png" /></a> !-->
-  		<div id="slider">
-  		  <ul id="sliderContent">
-  			 <li class="sliderImage">
-  				<a href=""><img src="<?php echo URL?>/css/images/1.jpg" alt="1" /></a>
-  				<span class="top"><strong>Noticia 1</strong><br />Essa seria a chamada para noticia 1</span>
-  			 </li>
-  			 <li class="sliderImage">
-  				<a href=""><img src="<?php echo URL?>/css/images/2.jpg" alt="2" /></a>
-  				<span class="top"><strong>Noticia 2</strong><br />Essa seria a chamada para noticia 2</span>
-  			 </li>
-  			 <li class="sliderImage">
-  				<img src="<?php echo URL?>/css/images/news/3.jpg" alt="3" />
-  				<span class="top"><strong>Noticia 3</strong><br />Essa seria a chamada para noticia 3</span>
-  			 </li>
-  			 <div class="clear sliderImage"></div>
-  		  </ul>
-  	   </div>
+
+      <div class="wrapper">
+        <div id="ei-slider" class="ei-slider">
+            <ul class="ei-slider-large">
+          <li>
+              <img src="<?php echo URL?>/css/images/obras/large/6.jpg" alt="image06"/>
+              <div class="ei-title">
+                  <h2>Passionate</h2>
+                  <h3>Seeker</h3>
+              </div>
+          </li>
+          <li>
+              <img src="<?php echo URL?>/css/images/obras/large/1.jpg" alt="image01" />
+              <div class="ei-title">
+                  <h2>Creative</h2>
+                  <h3>Duet</h3>
+              </div>
+          </li>
+          <li>
+              <img src="<?php echo URL?>/css/images/obras/large/2.jpg" alt="image02" />
+              <div class="ei-title">
+                  <h2>Friendly</h2>
+                  <h3>Devil</h3>
+              </div>
+          </li>
+      </ul><!-- ei-slider-large -->
+      <ul class="ei-slider-thumbs">
+          <li class="ei-slider-element">Current</li>
+          <li><a href="#">Slide 3</a><img src="<?php echo URL?>/css/images/obras/thumbs/3.jpg" alt="thumb03" /></li>
+          <li><a href="#">Slide 1</a><img src="<?php echo URL?>/css/images/obras/thumbs/1.jpg" alt="thumb01" /></li>
+          <li><a href="#">Slide 2</a><img src="<?php echo URL?>/css/images/obras/thumbs/2.jpg" alt="thumb02" /></li>
+      </ul><!-- ei-slider-thumbs -->
+  </div><!-- ei-slider -->
   </div>
 
   <div id='quadrados'>

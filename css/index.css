@@ -361,7 +361,7 @@ ul#sliding-navigation li.sliding-element-adm a {
 
 #obras{
    width: 600px;
-   height: 330px;
+   height: 430px;
    float: left;
    margin-top: 35px;
    margin-left:60px;
@@ -1219,3 +1219,6 @@ ul#sliding-navigation li.sliding-element-adm a {
 #jslidernews2{
    margin-top: 35px;
 }
+
+/* Slide show Obra */
+
