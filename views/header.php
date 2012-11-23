@@ -13,9 +13,7 @@
 	<link rel="stylesheet" href="<?php echo URL;?>css/jquery.popeye.style.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/layout.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/style2.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/demo_obra.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/style_obra.css" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+
 	<?php
 		if(isset($this->css)){
 			foreach($this->css as $css){
@@ -41,20 +39,47 @@
 	?>
 
 <!-- Inicio Obras -->
-	
-    <script type="text/javascript" src="<?php echo URL?>/scripts/jquery.eislideshow.js"></script>
-    <script type="text/javascript" src="<?php echo URL?>/scripts/jquery.easing.1.3.js"></script>
-    <script type="text/javascript">
-        $(function() {
-            $('#ei-slider').eislideshow({
-				animation			: 'center',
-				autoplay			: true,
-				slideshow_interval	: 3000,
-				titlesFactor		: 0
-            });
-        });
-    </script>
 
+	<script src="<?php echo URL;?>/scripts/jquery.carouFredSel-6.0.4-packed.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(function() {
+			$('#wrapper').hover(
+				function() {
+					$('#carousel').trigger( 'pause' );
+					$('#thumbnails').parent().animate({
+						top: 280
+					});
+				}, function() {
+					
+					$('#carousel').trigger( 'play' );
+					$('#thumbnails').parent().animate({
+						top: 375
+					});
+				}
+			);
+
+			$('#carousel').carouFredSel({
+				scroll: {
+					fx: 'crossfade',
+					onBefore: function( data ) {
+						$('#thumbnails').trigger( 'slideTo', [ $('#thumbnails img[alt='+ data.items.visible.attr( 'alt' ) +']'), -2 ] );
+					}
+				}
+			});
+
+			$('#thumbnails').carouFredSel({
+				auto: false,
+				items: {
+					start: -2
+				}
+			});
+
+			$('#thumbnails img').click(function() {
+				$('#carousel').trigger( 'slideTo', [ $('#carousel img[alt='+ $(this).attr( 'alt' ) +']') ] );
+
+			}).css( 'cursor', 'pointer' );
+		});
+	</script>
 <!-- Fim Obras -->
 
 	<script type="text/javascript">

@@ -1,6 +1,6 @@
 <div id='barra_home'>	
 	<div id='barra_menor'></div>
-	<div id='barra_maior'></div>	
+	<div id='barra_maior'></div>
 	<p>Not&iacute;cias</p>
 </div>
 
@@ -154,42 +154,24 @@
   </div>
 
   <div id='obras'>
-     <div id='titulo_obras'>
-        <p>A Prefeitura trabalhando - Obras</p>
-     </div>
+    <div id='titulo_obras'>
+      <p>A Prefeitura trabalhando - Obras</p>
+    </div>
 
-      <div class="wrapper">
-        <div id="ei-slider" class="ei-slider">
-            <ul class="ei-slider-large">
-          <li>
-              <img src="<?php echo URL?>/css/images/obras/large/6.jpg" alt="image06"/>
-              <div class="ei-title">
-                  <h2>Passionate</h2>
-                  <h3>Seeker</h3>
-              </div>
-          </li>
-          <li>
-              <img src="<?php echo URL?>/css/images/obras/large/1.jpg" alt="image01" />
-              <div class="ei-title">
-                  <h2>Creative</h2>
-                  <h3>Duet</h3>
-              </div>
-          </li>
-          <li>
-              <img src="<?php echo URL?>/css/images/obras/large/2.jpg" alt="image02" />
-              <div class="ei-title">
-                  <h2>Friendly</h2>
-                  <h3>Devil</h3>
-              </div>
-          </li>
-      </ul><!-- ei-slider-large -->
-      <ul class="ei-slider-thumbs">
-          <li class="ei-slider-element">Current</li>
-          <li><a href="#">Slide 3</a><img src="<?php echo URL?>/css/images/obras/thumbs/3.jpg" alt="thumb03" /></li>
-          <li><a href="#">Slide 1</a><img src="<?php echo URL?>/css/images/obras/thumbs/1.jpg" alt="thumb01" /></li>
-          <li><a href="#">Slide 2</a><img src="<?php echo URL?>/css/images/obras/thumbs/2.jpg" alt="thumb02" /></li>
-      </ul><!-- ei-slider-thumbs -->
-  </div><!-- ei-slider -->
+    <div id="wrapper">
+      <div id="carousel">
+        <img src="<?php echo URL?>/css/images/obras/large/carnaval1.jpg" alt="c1" width="600" height="400" />
+        <img src="<?php echo URL?>/css/images/obras/large/carnaval2.jpg" alt="c2" width="600" height="400" />
+        <img src="<?php echo URL?>/css/images/obras/large/carnaval3.jpg" alt="c3" width="600" height="400" />
+        <img src="<?php echo URL?>/css/images/obras/large/carnaval4.jpg" alt="c4" width="600" height="400" />
+      </div>
+      <div id="thumbnails">
+        <img src="<?php echo URL?>/css/images/obras/small/carnaval1.jpg" alt="c1" width="100" height="100" />
+        <img src="<?php echo URL?>/css/images/obras/small/carnaval2.jpg" alt="c2" width="100" height="100" />
+        <img src="<?php echo URL?>/css/images/obras/small/carnaval3.jpg" alt="c3" width="100" height="100" />
+        <img src="<?php echo URL?>/css/images/obras/small/carnaval4.jpg" alt="c4" width="100" height="100" />
+      </div>
+    </div>
   </div>
 
   <div id='quadrados'>
