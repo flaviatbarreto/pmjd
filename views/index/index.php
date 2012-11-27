@@ -1,13 +1,9 @@
-<div id='barra_home'>	
-	<div id='barra_menor'></div>
-	<div id='barra_maior'></div>
-	<p>Not&iacute;cias</p>
-</div>
-
-  <div id='news'>
-     <div id='titulo_news'>
-        <p>Notícias</p>
-     </div>
+<div id='news'>
+  <div id='barra_home'> 
+    <div id='barra_menor'></div>
+    <div id='barra_maior'></div>
+    <p>Not&iacute;cias</p>
+  </div>
 
   <div id="jslidernews2" class="lof-slidecontent" style="width:740px; height:300px;">
   	<div class="preload"><div></div></div>
@@ -91,25 +87,17 @@
             <!-- END OF BUTTON PLAY-STOP -->
              
    </div> 
-
-
-
-
-  </div>
-
-  <div id="plugins">
-     <div class="fb-like-box" data-href="http://www.facebook.com/platform"
-  		data-width="185" data-height="350" data-show-faces="true" data-stream="false" data-header="false">
-  	</div>
   </div>
 
   <div id='acontece'>
-     <div id='titulo_acontece'>
-        <p>PMJD Acontece</p>
-     </div>
-     
-     <div id="acontece_video">
-        <iframe width="430" height="315" src="http://www.youtube.com/embed/0qDEfvWetZY" 
+    <div id='barra_home'> 
+      <div id='barra_menor'></div>
+      <div id='barra_maior'></div>
+      <p>PMJD Acontece</p>
+    </div>
+
+    <div id="acontece_video">
+        <iframe width="430" height="315" src="http://www.youtube.com/embed/0qDEfvWetZY?theme=dark&color=white" 
                 frameborder="0" allowfullscreen></iframe>
      </div>
      <div id="imagens_acontece">
@@ -154,7 +142,9 @@
   </div>
 
   <div id='obras'>
-    <div id='titulo_obras'>
+    <div id='barra_home'> 
+      <div id='barra_menor'></div>
+      <div id='barra_maior'></div>
       <p>A Prefeitura trabalhando - Obras</p>
     </div>
 
@@ -179,14 +169,9 @@
      <img src='<?php echo URL?>/css/images/home_ouvidoria.png' class="quadrado_img" id="quadrado_ouvidoria"/>
   </div>
 
-  <!--
 
-    <div class="slider-description">
-                            <div class="slider-meta"><a target="_parent" title="Newsflash 4" href="#Category-4">/ Newsflash 4 /</a> <i> — Monday, February 15, 2010 12:42</i></div>
-                              <h4>Content of Newsflash 4</h4>
-                              <p>Joomla! 1.5 - 'Experience the Freedom'!. It has never been easier to create your own dynamic Web...
-                              <a class="readmore" href="#">Read more </a>
-                              </p>
-                           </div>
-
-                           -->
+  <div id="plugins">
+     <div class="fb-like-box" data-href="http://www.facebook.com/platform"
+      data-width="185" data-height="350" data-show-faces="true" data-stream="false" data-header="false">
+    </div>
+  </div>
