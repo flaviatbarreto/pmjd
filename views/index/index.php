@@ -159,17 +159,16 @@
     </div>
 
     <div id="wrapper">
-      <div id="carousel">
-        <img src="<?php echo URL?>/css/images/obras/large/carnaval1.jpg" alt="c1" width="600" height="400" />
-        <img src="<?php echo URL?>/css/images/obras/large/carnaval2.jpg" alt="c2" width="600" height="400" />
-        <img src="<?php echo URL?>/css/images/obras/large/carnaval3.jpg" alt="c3" width="600" height="400" />
-        <img src="<?php echo URL?>/css/images/obras/large/carnaval4.jpg" alt="c4" width="600" height="400" />
-      </div>
-      <div id="thumbnails">
-        <img src="<?php echo URL?>/css/images/obras/small/carnaval1.jpg" alt="c1" width="100" height="100" />
-        <img src="<?php echo URL?>/css/images/obras/small/carnaval2.jpg" alt="c2" width="100" height="100" />
-        <img src="<?php echo URL?>/css/images/obras/small/carnaval3.jpg" alt="c3" width="100" height="100" />
-        <img src="<?php echo URL?>/css/images/obras/small/carnaval4.jpg" alt="c4" width="100" height="100" />
+      <div class="slider-wrapper theme-default">
+          <div id="slider" class="nivoSlider">
+              <img src="<?php echo URL?>/css/images/obras/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+              <img src="<?php echo URL?>/css/images/obras/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" />
+              <img src="<?php echo URL?>/css/images/obras/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+              <img src="<?php echo URL?>/css/images/obras/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+          </div>
+          <div id="htmlcaption" class="nivo-html-caption">
+              <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+          </div>
       </div>
     </div>
   </div>

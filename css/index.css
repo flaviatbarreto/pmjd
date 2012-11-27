@@ -360,8 +360,8 @@ ul#sliding-navigation li.sliding-element-adm a {
 }
 
 #obras{
-   width: 600px;
-   height: 430px;
+   width: 700px;
+   height: 400px;
    float: left;
    margin-top: 35px;
    margin-left:60px;
@@ -1221,22 +1221,3 @@ ul#sliding-navigation li.sliding-element-adm a {
 }
 
 /* Slide show Obra */
-
-#wrapper {
-   width: 600px;
-   height: 400px;
-   margin: 30px 0 0 30px;
-   overflow: hidden;
-   box-shadow: 0 5px 5px #333;
-}
-#carousel {
-   width: 600px;
-   height: 400px;
-   overflow: hidden;
-   top: 0;
-   left: 0;
-}
-#carousel img {
-   display: block;
-   float: left;
-}

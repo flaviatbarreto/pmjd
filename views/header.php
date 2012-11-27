@@ -39,47 +39,16 @@
 	?>
 
 <!-- Inicio Obras -->
-
-	<script src="<?php echo URL;?>/scripts/jquery.carouFredSel-6.0.4-packed.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		$(function() {
-			$('#wrapper').hover(
-				function() {
-					$('#carousel').trigger( 'pause' );
-					$('#thumbnails').parent().animate({
-						top: 280
-					});
-				}, function() {
-					
-					$('#carousel').trigger( 'play' );
-					$('#thumbnails').parent().animate({
-						top: 375
-					});
-				}
-			);
-
-			$('#carousel').carouFredSel({
-				scroll: {
-					fx: 'crossfade',
-					onBefore: function( data ) {
-						$('#thumbnails').trigger( 'slideTo', [ $('#thumbnails img[alt='+ data.items.visible.attr( 'alt' ) +']'), -2 ] );
-					}
-				}
-			});
-
-			$('#thumbnails').carouFredSel({
-				auto: false,
-				items: {
-					start: -2
-				}
-			});
-
-			$('#thumbnails img').click(function() {
-				$('#carousel').trigger( 'slideTo', [ $('#carousel img[alt='+ $(this).attr( 'alt' ) +']') ] );
-
-			}).css( 'cursor', 'pointer' );
-		});
-	</script>
+	<link rel="stylesheet" href="<?php echo URL;?>css/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="<?php echo URL;?>css/default.css" type="text/css" media="screen" />
+	
+    <script type="text/javascript" src="<?php echo URL;?>/scripts/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+    </script>
+	
 <!-- Fim Obras -->
 
 	<script type="text/javascript">
