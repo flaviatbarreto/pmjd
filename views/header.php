@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="<?php echo URL;?>css/jquery.popeye.style.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/layout.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/style2.css" />
+	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+
 
 	<?php
 		if(isset($this->css)){
@@ -29,7 +31,6 @@
 	<script language="javascript" type="text/javascript" src="<?php echo URL;?>/scripts/jquery.js"></script>
 	<script language="javascript" type="text/javascript" src="<?php echo URL;?>/scripts/jquery.easing.js"></script>
 	<script language="javascript" type="text/javascript" src="<?php echo URL;?>/scripts/script.js"></script>
-	
 	<?php
 		if(isset($this->js)){
 			foreach($this->js as $js){
@@ -98,8 +99,20 @@
 <div id="wrap">
 
 <div id="header">
-	<div id="logo_prefeitura"></div>	
-	<div id="barra_header"></div>	
+	<a href="<?php echo URL;?>index"><div id="logo_prefeitura"></div></a>
+	<div id="barra_header">
+		<div id="icons_header">
+			<a href="https://www.facebook.com/prefeitura.municipaldejoaodourado?fref=ts" target="blank">
+				<img src="<?php echo URL;?>/css/images/icon_twitter.png" />
+			</a>
+			<a href="https://www.facebook.com/prefeitura.municipaldejoaodourado?fref=ts" target="blank">
+				<img src="<?php echo URL;?>/css/images/icon_facebook.png" />
+			</a>
+			<a href="http://www.youtube.com/channel/UCNA0ZoqqqDk9Lym1BC59oYA" target="blank">
+				<img src="<?php echo URL;?>/css/images/icon_youtube.png" />
+			</a>
+		</div>	
+	</div>
 	<div id=busca>
 		<input type="text" id="busca_texto" value="Digite sua pesquisa aqui" onfocus="this.value=''"/>
 		<div id="busca_ok"></div>
