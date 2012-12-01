@@ -101,33 +101,28 @@
     </div>
 
     <div id="imagens_acontece">
-  	  <div id="page-margins">
-  	    <div class="example">
-          <div class="ppy" id="ppy3">
-              <ul class="ppy-imglist">
-                <li><img src="http://farm4.static.flickr.com/3142/3053892214_390c0365df_m.jpg" alt="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras euismod risus non diam." /></li>
-                <li><img src="http://farm4.static.flickr.com/3014/3053902638_7871e32230_m.jpg" alt="In tempus consequat purus. Curabitur in massa nec purus semper adipiscing. Donec convallis odio nec nibh. Nam viverra, tortor nec cursus accumsan, purus purus ultricies mauris, in dignissim orci dui at est. Morbi non quam at ante cursus posuere. Sed ornare sem vitae diam tempor blandit. Nam risus diam, faucibus eget, fermentum et, dignissim eu, tellus. Praesent non justo. Proin vestibulum diam at mi. Cras molestie eleifend mi. Morbi massa enim, auctor at, rhoncus nec, consequat nec, diam. In laoreet lacus vel velit. Sed vulputate commodo ligula." /></li>
-                <li><img src="http://farm4.static.flickr.com/3136/3053075339_ca3f303a6d_m.jpg" alt="Sed consequat tincidunt sapien." /></li>
-              </ul>
-              <div class="ppy-outer">
-                <div class="ppy-stage">
-                  <div class="ppy-nav">
-                    <div class="nav-wrap">
-                        <a class="ppy-prev" title="Previous image">Previous image</a>
-                        <a class="ppy-play" title="Play Slideshow">Play Slideshow</a>
-                        <a class="ppy-pause" title="Stop Slideshow">Stop Slideshow</a>
-                        <a class="ppy-next" title="Next image">Next image</a>
-                    </div>
-                  </div>
-                  <div class="ppy-counter">
-                    <strong class="ppy-current"></strong> / <strong class="ppy-total"></strong> 
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  	  </div>
+		<div id="galeria_imagens">
+			<div id="galeria_imagens_menor">
+				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto1.jpg" /></div>
+				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto2.jpg" /></div>
+				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto3.jpg" /></div>
+				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto4.jpg" /></div>				
+			</div>
+			<div class="img_acontece_maior"><img src="<?php echo URL?>/css/images/acontece_foto5.jpg" /></div>
+			<p>Galeria 1 - Encontro de Alunos</p>
+		</div>		
+		<div id="linha_acontece_imagens"></div>
+		<div id="galeria_imagens">			
+			<div id="galeria_imagens_menor">
+				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto6.jpg" /></div>
+				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto3.jpg" /></div>
+				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto7.jpg" /></div>
+				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto2.jpg" /></div>
+			</div>
+			<div class="img_acontece_maior"><img src="<?php echo URL?>/css/images/acontece_foto8.jpg" /></div>
+			<p>Galeria 2 - Apresenta&ccedil;&atilde;o da Orquestra</p>
+		</div>
+     </div>
       <div id="sublinha_acontece"></div>
      <div id="acontece_sub">
   		<div id="midias_sociais"></div>
