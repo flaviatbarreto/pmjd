@@ -13,8 +13,6 @@
 	<link rel="stylesheet" href="<?php echo URL;?>css/jquery.popeye.style.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/layout.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/style2.css" />
-	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-
 
 	<?php
 		if(isset($this->css)){

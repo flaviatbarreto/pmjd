@@ -9,12 +9,10 @@
   	<div class="preload"><div></div></div>
               
       <div  class="button-previous">Previous</div>
-        <!-- MAIN CONTENT --> 
         <div class="main-slider-content" style="width:740px; height:300px;">
                   <ul class="sliders-wrap-inner">
                       <li>
-                              <img src="<?php echo URL?>/css/images/slide/thumbl_980x340.png" title="Newsflash 2" >           
-                            
+                        <img src="<?php echo URL?>/css/images/slide/thumbl_980x340.png" title="Newsflash 2" >
                       </li> 
                      <li>
                         <img src="<?php echo URL?>/css/images/slide/thumbl_980x340_002.png" title="Newsflash 1" >           
@@ -26,8 +24,6 @@
                       </li> 
                     </ul>  	
               </div>
-   		   <!-- END MAIN CONTENT --> 
-             <!-- NAVIGATOR -->
              	<div class="navigator-content">
                     <div class="navigator-wrapper">
                           <ul class="navigator-wrap-inner">
@@ -53,39 +49,9 @@
                                       <span>20.01.2010</span> - Um Subtitulo
                                   </div>     
                               </li>
-                              
-                             <li>
-                                  <div>
-                                      <img src="<?php echo URL?>/css/images/slide/416719news7.jpg" />
-                                      <h3> NewsFlash 4</h3>
-                                      <span>20.01.2010</span> - In id, mauris viverra asperiores, bibendum in id. Eu molestie. Ac sit eu. ..
-                                  </div>
-                              </li>    
-                              <li>
-                                   <div>
-                                      <img src="<?php echo URL?>/css/images/slide/641906img1.jpg" />
-                                      <h3> NewsFlash 5</h3>
-                                      <span>20.01.2010</span> -In id, mauris viverra asperiores, bibendum in id. Eu molestie. Ac sit eu. ..
-                                   </div>   
-                              </li>
-                             <li>
-                                  <div>
-                                      <img src="<?php echo URL?>/css/images/slide/416719news7.jpg" />
-                                      <h3> NewsFlash 6</h3>
-                                      <span>20.01.2010</span> - In id, mauris viverra asperiores, bibendum in id. Eu molestie. Ac sit eu. ..
-                                  </div>
-                              </li>     		
                           </ul>
                     </div>
-     
-               </div> 
-            <!----------------- END OF NAVIGATOR --------------------->
-            <div class="button-next">Next</div>
-   
-   		 <!-- BUTTON PLAY-STOP -->
-            <div class="button-control"><span></span></div>
-            <!-- END OF BUTTON PLAY-STOP -->
-             
+               </div>
    </div> 
   </div>
 
@@ -99,30 +65,30 @@
     <div id="acontece_video">
       <iframe width="430" height="315" src="http://www.youtube.com/embed/0qDEfvWetZY?theme=dark&color=white" frameborder="0" allowfullscreen></iframe>
     </div>
-
-    <div id="imagens_acontece">
+	
+     <div id="imagens_acontece">
 		<div id="galeria_imagens">
 			<div id="galeria_imagens_menor">
-				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto1.jpg" /></div>
-				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto2.jpg" /></div>
-				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto3.jpg" /></div>
-				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto4.jpg" /></div>				
+				<div class="img_acontece_menor"><img src="<?php echo URL?>css/images/acontece/acontece_foto1.jpg" /></div>
+				<div class="img_acontece_menor"><img src="<?php echo URL?>css/images/acontece/acontece_foto2.jpg" /></div>
+				<div class="img_acontece_menor"><img src="<?php echo URL?>css/images/acontece/acontece_foto3.jpg" /></div>
+				<div class="img_acontece_menor"><img src="<?php echo URL?>css/images/acontece/acontece_foto4.jpg" /></div>				
 			</div>
-			<div class="img_acontece_maior"><img src="<?php echo URL?>/css/images/acontece_foto5.jpg" /></div>
+			<div class="img_acontece_maior"><img src="<?php echo URL?>css/images/acontece/acontece_foto5.jpg" /></div>
 			<p>Galeria 1 - Encontro de Alunos</p>
 		</div>		
 		<div id="linha_acontece_imagens"></div>
 		<div id="galeria_imagens">			
 			<div id="galeria_imagens_menor">
-				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto6.jpg" /></div>
-				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto3.jpg" /></div>
-				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto7.jpg" /></div>
-				<div class="img_acontece_menor"><img src="<?php echo URL?>/css/images/acontece_foto2.jpg" /></div>
+				<div class="img_acontece_menor"><img src="<?php echo URL?>css/images/acontece/acontece_foto6.jpg" /></div>
+				<div class="img_acontece_menor"><img src="<?php echo URL?>css/images/acontece/acontece_foto3.jpg" /></div>
+				<div class="img_acontece_menor"><img src="<?php echo URL?>css/images/acontece/acontece_foto7.jpg" /></div>
+				<div class="img_acontece_menor"><img src="<?php echo URL?>css/images/acontece/acontece_foto2.jpg" /></div>
 			</div>
-			<div class="img_acontece_maior"><img src="<?php echo URL?>/css/images/acontece_foto8.jpg" /></div>
+			<div class="img_acontece_maior"><img src="<?php echo URL?>css/images/acontece/acontece_foto8.jpg" /></div>
 			<p>Galeria 2 - Apresenta&ccedil;&atilde;o da Orquestra</p>
 		</div>
-     </div>
+     </div>     
       <div id="sublinha_acontece"></div>
      <div id="acontece_sub">
   		<div id="midias_sociais"></div>
