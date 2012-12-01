@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
@@ -9,11 +9,6 @@
 	<title>PMJD</title>
 	
 	<link rel="stylesheet" href="<?php echo URL;?>css/index.css" />
-	<link rel="stylesheet" href="<?php echo URL;?>css/jquery.popeye.css" />
-	<link rel="stylesheet" href="<?php echo URL;?>css/jquery.popeye.style.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/layout.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo URL;?>css/style2.css" />
-
 	<?php
 		if(isset($this->css)){
 			foreach($this->css as $css){
@@ -24,11 +19,6 @@
 	
 	<script type="text/javascript" src="<?php echo URL;?>scripts/jquery-1.7.2.min.js"></script>
 	<script type="text/javascript" src="<?php echo URL;?>scripts/easySlider1.7.js"></script>
-	<script type="text/javascript" src="<?php echo URL;?>scripts/jquery.popeye-2.1.js"></script>
-	<script type="text/javascript" src="<?php echo URL;?>scripts/jquery.popeye-2.1.min.js"></script>
-	<script language="javascript" type="text/javascript" src="<?php echo URL;?>/scripts/jquery.js"></script>
-	<script language="javascript" type="text/javascript" src="<?php echo URL;?>/scripts/jquery.easing.js"></script>
-	<script language="javascript" type="text/javascript" src="<?php echo URL;?>/scripts/script.js"></script>
 	<?php
 		if(isset($this->js)){
 			foreach($this->js as $js){
@@ -36,87 +26,39 @@
 			}
 		}
 	?>
-
-<!-- Inicio Obras -->
-	<link rel="stylesheet" href="<?php echo URL;?>css/nivo-slider.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="<?php echo URL;?>css/default.css" type="text/css" media="screen" />
-	
-    <script type="text/javascript" src="<?php echo URL;?>/scripts/jquery.nivo.slider.js"></script>
-    <script type="text/javascript">
-        $(window).load(function() {
-            $('#slider').nivoSlider();
-        });
-    </script>
-	
-<!-- Fim Obras -->
-
-	<script type="text/javascript">
-		$(document).ready( function(){	
-			var buttons = { previous:$('#jslidernews2 .button-previous') ,
-						next:$('#jslidernews2 .button-next') };			 
-			$('#jslidernews2').lofJSidernews( { interval:5000,
-											 	easing:'easeInOutQuad',
-												duration:1200,
-												auto:true,
-												mainWidth:684,
-												mainHeight:300,
-												navigatorHeight		: 100,
-												navigatorWidth		: 310,
-												maxItemDisplay:3,
-												buttons:buttons } );						
-	});
+	<script>
+      $(document).ready(function(){	
+         $("#slider").easySlider({
+            controlsShow: false,
+            firstShow: false,
+            lastShow: false,
+            speed: 2000,
+            auto:	true,
+            pause: 7000,
+            continuous: true, 
+            numeric: false
+         });
+      });
 	</script>
-	
-	<!-- [example js] begin -->
-<script type="text/javascript">
-    <!--//<![CDATA[
-    
-    $(document).ready(function () {
-        var options1 = {
-        }
-        var options2 = {
-            caption:    false,
-            navigation: 'permanent',
-            direction:  'left'
-        }
-        var options3 = {
-            caption:    'permanent',
-            opacity:    1
-        }
-    
-        $('#ppy1').popeye(options1);
-        $('#ppy2').popeye(options2);
-        $('#ppy3').popeye(options3);
-    });
-    
-    //]]>-->
-</script>
 </head>
 
 <body>
 <div id="wrap">
-
+<div id="header_backgroud">
 <div id="header">
-	<a href="<?php echo URL;?>index"><div id="logo_prefeitura"></div></a>
-	<div id="barra_header">
-		<div id="icons_header">
-			<a href="https://www.facebook.com/prefeitura.municipaldejoaodourado?fref=ts" target="blank">
-				<img src="<?php echo URL;?>/css/images/icon_twitter.png" />
-			</a>
-			<a href="https://www.facebook.com/prefeitura.municipaldejoaodourado?fref=ts" target="blank">
-				<img src="<?php echo URL;?>/css/images/icon_facebook.png" />
-			</a>
-			<a href="http://www.youtube.com/channel/UCNA0ZoqqqDk9Lym1BC59oYA" target="blank">
-				<img src="<?php echo URL;?>/css/images/icon_youtube.png" />
-			</a>
-		</div>	
+	<div id="logo_prefeitura">
 	</div>
-	<div id=busca>
-		<input type="text" id="busca_texto" value="Digite sua pesquisa aqui" onfocus="this.value=''"/>
-		<div id="busca_ok"></div>
+   <div id="slider">
+      <ul>				
+         <li><img src="<?php echo URL;?>css/images/banner1.jpg" width="740" height="160"/></li>
+         <li><img src="<?php echo URL;?>css/images/banner2.jpg" width="740" height="160"/></li>
+         <li><img src="<?php echo URL;?>css/images/banner3.jpg" width="740" height="160"/></li>
+      </ul>
+   </div>
+	<div id="frase">
+		<p>Nunca se fez tanto em tão pouco tempo</p>
 	</div>
-	<div id="foto_header"></div>
-	<div id="barra_inferior_header"></div>   
+</div>
 </div>
 
 <div id="all">
@@ -147,7 +89,8 @@
          <ul id="sliding-navigation-adm">
 				<li class="sliding-element-adm"><a href="<?php echo URL;?>acontece/fotos">Fotos</a></li>
 				<li class="sliding-element-adm"><a href="<?php echo URL;?>acontece/videos">Vídeos</a></li>
-            <li class="sliding-element-adm"><a href="<?php echo URL;?>acontece/espaco">Espaço Cultural</a></li>
+				<li class="sliding-element-adm"><a href="<?php echo URL;?>acontece/radio">Radio</a></li>
+            <li class="sliding-element-adm"><a href="<?php echo URL;?>acontece/espaco_cultural">Espaço Cultural</a></li>
             <li class="sliding-element-adm"><a href="<?php echo URL;?>acontece/simbolos">Símbolos oficiais</a></li>
 			</ul>
       </li>
