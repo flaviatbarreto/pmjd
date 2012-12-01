@@ -1198,3 +1198,69 @@ ul#sliding-navigation li.sliding-element-adm a {
 }
 
 /* Slide show Obra */
+
+/* Fotos PMJD Acontece HOME */
+
+#sublinha_acontece{
+   width: 620px;
+   height: 1px;
+   background: #505050;
+   background-repeat: no-repeat;
+   float: left;	
+   margin-left:10px;
+   margin-top: 5px;
+}
+
+#imagens_acontece{
+	width: 290px;
+	height: 315px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+#galeria_imagens{
+	width: 290px;
+	height: 140px;
+	float: left;
+}
+
+#galeria_imagens p{
+	font-size: 14px;
+	font-weight: regular;
+	color: #505050;
+	margin-top: 5px;
+	float: right;	
+	margin-right: 0px;
+}
+
+#galeria_imagens_menor{
+	width:150px;
+	height:115px;
+	float: left;	
+}
+
+.img_acontece_menor{
+	width: 72px;
+	height: 54px;
+	float: left;
+	margin-top:3px;
+	margin-left:2px;
+}
+
+.img_acontece_maior{
+	width: 140px;
+	height: 113px;
+	float: left;
+	margin-top:2px;
+}
+
+#linha_acontece_imagens{
+   width: 290px;
+   height: 1px;
+   background: #505050;
+   background-repeat: no-repeat;
+   float: left;	   
+   margin-top: 10px;
+   margin-bottom: 15px;
+}
