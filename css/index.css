@@ -181,7 +181,7 @@ ul#sliding-navigation li.sliding-element a
    width: 150px;  
    padding: 5px 15px;  
    margin: 0;  
-   margin-bottom: 5px;  
+   margin-bottom: 5px; 
 }  
 
 ul#sliding-navigation li.sliding-element h3  {
@@ -192,11 +192,12 @@ ul#sliding-navigation li.sliding-element h3  {
 }  
 
 ul#sliding-navigation li.sliding-element a {  
-   color: #999; 
+   color: #999;
    background: #DDE9AF;  
    border: 1px solid #DDE9AF;  
    text-decoration: none;  
    font-weight: bold;
+   border-bottom: 2px solid #CCC;
 }  
 
 ul#sliding-navigation li.sliding-element a:hover { 
@@ -210,6 +211,7 @@ ul#sliding-navigation li.sliding-element-adm a {
    border: 0px;
    text-decoration: none;  
    font-weight: bold;
+   border-bottom: 2px solid #CCC;
 }
 
 #sliding-navigation-admin{
@@ -325,13 +327,13 @@ ul#sliding-navigation li.sliding-element-adm a {
    width: 740px;
    height: 380px;
    float: left;
-   margin-top: 30px;
+   margin-top: 50px;
 }
 
 #acontece_video{
    width: 430px;
    height: 315px;
-   margin-top: 50px;
+   margin-top: 60px;
    margin-left: 10px;
    float: left;
 }
@@ -340,7 +342,7 @@ ul#sliding-navigation li.sliding-element-adm a {
    width: 740px;
    height: 400px;
    float: left;
-   margin-top: 60px;
+   margin-top: 90px;
 }
 
 #obras img{
@@ -1134,7 +1136,7 @@ ul#sliding-navigation li.sliding-element-adm a {
 }
 
 #sublinha_acontece{
-   width: 620px;
+   width: 431px;
    height: 1px;
    background: #505050;
    background-repeat: no-repeat;
@@ -1170,7 +1172,7 @@ ul#sliding-navigation li.sliding-element-adm a {
 	width: 80px;
 	height: 19px;
 	float: left;
-	margin-left: 22px;
+	margin-left: 50px;
 	margin-top: 12px;
 }
 #acontece_audios{
@@ -1178,7 +1180,7 @@ ul#sliding-navigation li.sliding-element-adm a {
 	width: 69px;
 	height: 19px;
 	float: left;
-	margin-left: 22px;
+	margin-left: 50px;
 	margin-top: 12px;
 }
 
@@ -1187,14 +1189,14 @@ ul#sliding-navigation li.sliding-element-adm a {
 	width: 59px;
 	height: 21px;
 	float: left;
-	margin-left: 22px;
+	margin-left: 50px;
 	margin-top: 12px;
 }
 
 /* Slide shows Corpo*/
 
 #jslidernews2{
-   margin-top: 50px;
+   margin-top: 60px;
 }
 
 /* Slide show Obra */
@@ -1202,7 +1204,7 @@ ul#sliding-navigation li.sliding-element-adm a {
 /* Fotos PMJD Acontece HOME */
 
 #sublinha_acontece{
-   width: 620px;
+   width: 431px;
    height: 1px;
    background: #505050;
    background-repeat: no-repeat;
@@ -1215,7 +1217,7 @@ ul#sliding-navigation li.sliding-element-adm a {
 	width: 290px;
 	height: 315px;
 	float: left;
-	margin-top: 50px;
+	margin-top: 58px;
 	margin-left: 10px;
 }
 
@@ -1229,7 +1231,7 @@ ul#sliding-navigation li.sliding-element-adm a {
 	font-size: 14px;
 	font-weight: regular;
 	color: #505050;
-	margin-top: 5px;
+	margin-top: 10px;
 	float: right;	
 	margin-right: 0px;
 }
@@ -1261,6 +1263,6 @@ ul#sliding-navigation li.sliding-element-adm a {
    background: #505050;
    background-repeat: no-repeat;
    float: left;	   
-   margin-top: 10px;
-   margin-bottom: 15px;
+   margin-top: 15px;
+   margin-bottom: 25px;
 }

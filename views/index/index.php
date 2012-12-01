@@ -91,7 +91,6 @@
      </div>     
       <div id="sublinha_acontece"></div>
      <div id="acontece_sub">
-  		<div id="midias_sociais"></div>
   		<div id="acontece_videos"></div>
   		<div id="acontece_audios"></div>
   		<div id="acontece_fotos"></div>
