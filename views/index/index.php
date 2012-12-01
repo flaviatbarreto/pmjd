@@ -109,7 +109,6 @@
           <div id="slider" class="nivoSlider">
               <img src="<?php echo URL?>/css/images/obras/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
               <img src="<?php echo URL?>/css/images/obras/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" />
-              <img src="<?php echo URL?>/css/images/obras/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
               <img src="<?php echo URL?>/css/images/obras/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
           </div>
           <div id="htmlcaption" class="nivo-html-caption">

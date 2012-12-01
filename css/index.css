@@ -247,46 +247,53 @@ ul#sliding-navigation li.sliding-element-adm a {
 #footer {
    position: relative;
    margin-top: -130px;
-   height: 180px;
+   height: 230px;
    clear:both;
    background: #DDE9AF;
    border: none;
 }
 
 #footer p{
-   color: #999;
-   font-size: 15px;
+   color: #505050;
+   font-size: 20px;
    font-weight: bold;
+}
+
+.endereco_prefeitura{
+   color: #505050;
+   font-size: 15px;
+   font-weight: regular;
+
 }
 
 #footer_prefeitura{
    width: 435px;
    height: 100px;
-   float: left;
-   margin-left: 50px;
-   margin-top: 30px;
+   margin-top: 15px;
 }
 
 #nome_prefeitura{
-   width: 268px;
+   width: 400px;
    height: 30px;
-   float: right;
-   margin-top: 30px;
+   float: left;
+   margin-top: -40px;
+   margin-left: 200px;
+   
 }
 
 #logo_governo{
-   width: 145px;
-   height: 98px;
-   background-image: url('images/footer_prefeitura.png');
+   width: 185px;
+   height: 180px;
+   background-image: url('images/logo_prefeitura.png');
    float: left;
+   margin-top: 10px;
 }
 
 #links{
    width: 140px;
    height: 100px;
+   margin-top: -150px;
    float: right;
-   margin-right: 100px;
-   margin-top: 30px;
 }
 
 #news{

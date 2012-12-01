@@ -12,22 +12,15 @@
 		</div>
 		<div id="nome_prefeitura">
 			<p>Prefeitura Municipal de João Dourado</p>
-			<p>Todos Direitos Reservados</p>
+			<div class="endereco_prefeitura">Praça João Dourado, 132, João Dourado - BA, 44920-000</div>
 		</div>	
 	</div>
 	<div id="links">
 		<p>Links úteis</p>
-		<a href="#">Governo da Bahia</a>
-		<a href="#">Governo Federal</a>
-	</div>
-   <div id="newsletter">
-		<p>Receba as Nóticias do Portal</p>
-      <form method="post" action="">
-         Nome <br/><input type="text" name="name"/><br/>
-         Email <br/><input type="text" name="email"/><br/>
-         <input type="submit"/>
-      </form>
-	</div>
+		<a href="http://www.brasil.gov.br/">Governo Federal</a>
+		<a href="http://www.ba.gov.br/">Governo da Bahia</a>
+		<a href="http://www.sac.ba.gov.br/">SAC</a>
+	</div>   
 </div>
 </body>
 
